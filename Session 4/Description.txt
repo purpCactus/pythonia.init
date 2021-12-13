@@ -1,0 +1,16 @@
+from FileDict import FileDict
+
+# should auto load FileDict if its exists before
+data1 = FileDict("person1")
+
+data1['name'] = 'hasan'
+data1['family'] = 'taghi'
+data1['age'] = 22
+
+# should print None (not exception or error)
+print(data['alaki'])
+
+# should print data
+print(data1)
+
+# should auto save FileDict after finish woriking with it
